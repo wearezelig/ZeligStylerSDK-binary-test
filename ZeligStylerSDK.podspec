@@ -36,9 +36,9 @@ Pod::Spec.new do |spec|
 
   # Closed-source binary distribution.
   spec.source = {
-    :http => "https://storage.googleapis.com/ios-widget-sdk-zelig-prod/ZeligStylerSDK-1.0.0.xcframework.zip",
+    :http => "https://storage.googleapis.com/ios-widget-sdk-zelig-dev/ZeligStylerSDK-2.0.0.xcframework.zip",
     :type => :zip,
-    :sha256 => "8410d58dedf61aa0c7ac1518a6a77380de942b0d2bd903f65642ab9d37bb38bc"
+    :sha256 => "c5f3ac198785dc6c07780a3a07f8cd30636cff0e864dcea6f6ec3bb687b14896"
   }
   spec.vendored_frameworks = "ZeligStylerSDK.xcframework"
 
